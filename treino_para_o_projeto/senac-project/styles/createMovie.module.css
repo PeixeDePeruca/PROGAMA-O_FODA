@@ -1,0 +1,36 @@
+.container {
+    background-color: #ff9000;
+    width: 40vw;
+    height: 45vh;
+    border: black 0.1rem solid;
+    border-radius: 20px;
+    padding: 3%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 13%;
+}
+
+
+.inputImage{
+    height: 7vh;
+}
+
+.container input{
+    margin-top: 3%;
+}
+
+.container button{
+    background-color: rgb(61, 60, 60);
+    border: black 0.1rem solid;
+    border-radius: 15px;
+    color: black;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2%;
+    color: white;
+}
+
+.container h1{
+    font-size: 30px;
+    font-weight: bold;
+}

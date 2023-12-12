@@ -1,0 +1,106 @@
+
+.container {
+    padding: 3%;
+    color: white;
+    font-size: 50px;
+    height: 1   00vh;
+    width: 100vw;
+}
+
+
+.page {
+    background-color: rgb(52, 47, 47);
+    margin-left: 6%;
+    margin-right: 6%;
+
+}
+
+.movieImage {
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+
+
+.field {
+    background-color: rgba(168, 47, 47, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 1%;
+    border: black 0.1rem ;
+    width: 60%;
+}
+
+
+.ratingBox {
+    background-color: rgb(72, 72, 72);
+    margin-top: 3%;
+
+    border: black;
+    border-radius: 20px;
+
+    color: black;
+
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    height: 16vh;
+}
+
+.ratingComment {
+    height: 8vw;
+    width: 40vw;
+    resize: none;
+    border-radius: 20px;
+    border: black 0.1rem solid;
+    padding: 0.8%;  
+    background-color: rgb(62, 61, 61);
+    color: white;
+    background-color: gray;
+    z-index: 1;
+}
+
+.ratingComment:hover {
+    background-color: rgb(72, 72, 72);
+    cursor: pointer;
+}
+
+.ratingValue {
+    height: 10vh;
+    width: 5vw;
+    font-size: 20px;
+    border: rgb(72, 72, 72) 0.1rem solid;
+    border-radius: 10px;
+}
+
+.ratingButton {
+    background-color: rgba(0, 0, 0, 0.467);
+    color: rgb(255, 255, 255);
+    border: rgb(72, 72, 72) 0.5rem solid;
+    border-radius: 2px;
+    height: 10vh;
+    width: 13vw;
+    font-size: 22px;
+}
+
+.ratingButton:hover {
+    background-color: rgba(0, 0, 0, 0.467);
+    color: #ffffff;
+    border: rgb(72, 72, 72) 0.1rem solid;
+    border-radius: 1px;
+}
+
+.ratingComment:focus {
+height: 30vh;
+}
+
+
+
+.singleRating{
+    margin-top: 3%;
+}
+
+.container hr {
+    border-color: rgb(108, 109, 108);
+}

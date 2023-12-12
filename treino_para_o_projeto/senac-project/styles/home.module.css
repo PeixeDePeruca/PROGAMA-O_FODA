@@ -1,0 +1,98 @@
+
+.navBar {
+    background: #0e0e0e;
+    width: 100vw;
+    height: 7rem;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.btnLogout {
+    background-color: orange;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 05px;
+    border: 0.2rem solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-right: 2%;
+    font-weight: bold;
+}
+
+.btnLogout:hover {
+    background-color: orange;
+    color: black;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 80vw;
+    height: 90vh;
+    margin-left: 10%;
+    padding: 2%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.card {
+    width: 280px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    border: white 0.1rem solid;
+    background-image: url(../public/duro_matar.jpg);
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.search_box{
+    display: inline-block;
+    border: 0.1rem #252525 solid;
+    background-color: #252525;
+    margin-left : 100px;
+    width: 1000px;
+    border-radius: 50px;
+    align-items: center;
+    color:white;
+}
+
+.search_txt{
+    border: none;
+    background-color: #252525;
+    align-items: center;
+    outline: none;
+    appearance: none;
+    width: 500px;
+    margin-top: 0%;
+    margin-left: 1%;
+    
+}
+
+.lupa{
+    display: inline-flex;
+    border: 0.1rem #252525 solid;
+    background-color: #252525;
+    border-radius: 50%;
+    margin-left: 1%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    outline: none;
+}
+
+.lupa:hover{
+    background-color: #252525;
+}
+
+
+.search_btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
