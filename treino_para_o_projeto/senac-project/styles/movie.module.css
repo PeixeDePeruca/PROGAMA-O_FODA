@@ -49,10 +49,10 @@
 }
 
 .ratingComment {
-    height: 8vw;
+    height: 5vw;
     width: 40vw;
     resize: none;
-    border-radius: 20px;
+    border-radius: 6px;
     border: black 0.1rem solid;
     padding: 0.8%;  
     background-color: rgb(62, 61, 61);

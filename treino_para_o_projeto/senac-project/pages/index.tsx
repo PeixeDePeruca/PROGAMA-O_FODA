@@ -3,7 +3,7 @@ import { deleteCookie, getCookie } from "cookies-next";
 import styles from "@/styles/home.module.css";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "@/public/lupa.png";
 
 export default function Home() {
   const router = useRouter();
@@ -82,6 +82,7 @@ export default function Home() {
                 <p>{movie.name}</p>
                 <p>{movie.releaseDate}</p>
               </div>
+
 
             ))
 
